@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Triangle</string>
+
+    <string-array name="thread_category">
+        <item>仕事</item>
+        <item>趣味</item>
+        <item>遊び</item>
+        <item>ニュース</item>
+        <item>その他</item>
+    </string-array>
+</resources>

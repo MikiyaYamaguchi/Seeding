@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#fffaf0</item>
+    </style>
+    <style name="CustomAlertDialogStyle"
+        parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="windowFixedHeightMajor">100%</item> <!-- （1）高さ：最大 -->
+        <item name="windowFixedHeightMinor">100%</item> <!-- （1）高さ：最小 -->
+    </style>
+
+</resources>
