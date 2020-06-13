@@ -23,8 +23,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     public List iThreadCategory;
     public String userName;
 
-    public int pinCount = 0;
-
     static class ViewHolder extends RecyclerView.ViewHolder {
 
         TextView ThreadNameView;
